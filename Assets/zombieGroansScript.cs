@@ -3,13 +3,16 @@ using System.Collections;
 
 public class zombieGroansScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public AudioClip[] groans;
+    public int minimumTime = 4;
+    public int maximumTime = 10;
+
+    void Start()
+    {
+
+    }
+    void randomGroans()
+    {
+        
+    }
 }
